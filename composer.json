@@ -1,0 +1,7 @@
+{
+    "require": {
+        "noi/parsedown-rubytext": "*",
+        "noi/parsedown-newline": "*",
+        "erusev/parsedown-extra": "*"
+    }
+}

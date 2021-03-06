@@ -1,0 +1,236 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6a79622f7e0402eda48f47829013b4e5",
+    "packages": [
+        {
+            "name": "erusev/parsedown",
+            "version": "1.7.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown.git",
+                "reference": "cb17b6477dfff935958ba01325f2e8a2bfa6dab3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/cb17b6477dfff935958ba01325f2e8a2bfa6dab3",
+                "reference": "cb17b6477dfff935958ba01325f2e8a2bfa6dab3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Parsedown": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "Parser for Markdown.",
+            "homepage": "http://parsedown.org",
+            "keywords": [
+                "markdown",
+                "parser"
+            ],
+            "support": {
+                "issues": "https://github.com/erusev/parsedown/issues",
+                "source": "https://github.com/erusev/parsedown/tree/1.7.x"
+            },
+            "time": "2019-12-30T22:54:17+00:00"
+        },
+        {
+            "name": "erusev/parsedown-extra",
+            "version": "0.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown-extra.git",
+                "reference": "91ac3ff98f0cea243bdccc688df43810f044dcef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown-extra/zipball/91ac3ff98f0cea243bdccc688df43810f044dcef",
+                "reference": "91ac3ff98f0cea243bdccc688df43810f044dcef",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown": "^1.7.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ParsedownExtra": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "An extension of Parsedown that adds support for Markdown Extra.",
+            "homepage": "https://github.com/erusev/parsedown-extra",
+            "keywords": [
+                "markdown",
+                "markdown extra",
+                "parsedown",
+                "parser"
+            ],
+            "support": {
+                "issues": "https://github.com/erusev/parsedown-extra/issues",
+                "source": "https://github.com/erusev/parsedown-extra/tree/0.8.x"
+            },
+            "time": "2019-12-30T23:20:37+00:00"
+        },
+        {
+            "name": "noi/parsedown-newline",
+            "version": "0.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/noisan/parsedown-newline.git",
+                "reference": "412e5bb431fd6d7e652f842138f5c747a8700a21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/noisan/parsedown-newline/zipball/412e5bb431fd6d7e652f842138f5c747a8700a21",
+                "reference": "412e5bb431fd6d7e652f842138f5c747a8700a21",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown": "~1.4"
+            },
+            "require-dev": {
+                "erusev/parsedown-extra": "*",
+                "phpunit/phpunit": "4.*"
+            },
+            "suggest": {
+                "erusev/parsedown-extra": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Noi\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Akihiro Yamanoi",
+                    "email": "akihiro.yamanoi@gmail.com"
+                }
+            ],
+            "description": "An extension of Parsedown that prevents unwanted white spaces in Japanese.",
+            "keywords": [
+                "extension",
+                "japanese",
+                "library",
+                "line break",
+                "markdown",
+                "newline",
+                "parsedown",
+                "parser",
+                "white space"
+            ],
+            "support": {
+                "issues": "https://github.com/noisan/parsedown-newline/issues",
+                "source": "https://github.com/noisan/parsedown-newline/tree/master"
+            },
+            "time": "2015-09-24T22:41:04+00:00"
+        },
+        {
+            "name": "noi/parsedown-rubytext",
+            "version": "0.9.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/noisan/parsedown-rubytext.git",
+                "reference": "daa87e5d14cc0c8d540219d9615959a17c260b4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/noisan/parsedown-rubytext/zipball/daa87e5d14cc0c8d540219d9615959a17c260b4d",
+                "reference": "daa87e5d14cc0c8d540219d9615959a17c260b4d",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown": "~1.4"
+            },
+            "require-dev": {
+                "erusev/parsedown-extra": "*",
+                "phpunit/phpunit": "4.*"
+            },
+            "suggest": {
+                "erusev/parsedown-extra": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Noi\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Akihiro Yamanoi",
+                    "email": "akihiro.yamanoi@gmail.com"
+                }
+            ],
+            "description": "An extension of Parsedown that adds support for ruby text (aka furigana) in Markdown.",
+            "keywords": [
+                "aozora bunko",
+                "extension",
+                "furigana",
+                "library",
+                "markdown",
+                "parsedown",
+                "parser",
+                "rubi",
+                "ruby"
+            ],
+            "support": {
+                "issues": "https://github.com/noisan/parsedown-rubytext/issues",
+                "source": "https://github.com/noisan/parsedown-rubytext/tree/master"
+            },
+            "time": "2018-04-07T00:52:41+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
