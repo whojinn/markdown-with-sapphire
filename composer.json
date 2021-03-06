@@ -1,4 +1,13 @@
 {
+    "name": "whojinn/markdown-with-sapphire",
+    "description": "my parser for japanese markdown. this based by parsedown-rubytext",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "whojinn",
+            "email": "whojin.message@gmail.com"
+        }
+    ],
     "require": {
         "noi/parsedown-rubytext": "*",
         "noi/parsedown-newline": "*",
