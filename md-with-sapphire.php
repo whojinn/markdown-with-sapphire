@@ -1,4 +1,5 @@
 <?php
+    // オートローディング
     require "vendor/autoload.php";
 
     class MarkdownWithSapphire extends \Noi\ParsedownNewline /* or ParsedownExtra or etc. */ {
@@ -9,7 +10,6 @@
       // 2. registerAozoraRubyTextExtension()をコンストラクタかどこかで実行
       public function __construct() {
         $this->registerAozoraRubyTextExtension();
-
       }
     }
 
