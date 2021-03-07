@@ -1,7 +1,7 @@
 {
     "name": "whojinn/markdown-with-sapphire",
-    "description": "my parser for japanese markdown. this based by parsedown-rubytext",
-    "license": "MIT",
+    "description": "Parser for japanese markdown. this based by parsedown-rubytext",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "whojinn",
