@@ -16,4 +16,4 @@ Parsedown青空文庫ルビ形式extension、Parsedown 日本語改行支援exte
 Apache-2.0で頒布しています。詳細は[LICENSEファイル](https://github.com/whojinn/markdown-with-sapphire/blob/master/LICENSE)を参照してください。
 - ライセンス原文の日本語参考訳は[こちら](https://licenses.opensource.jp/Apache-2.0/Apache-2.0.html)
 
-These sources Licensed under the Apache License, Version 2.0. Prease click [here](https://github.com/whojinn/markdown-with-sapphire/blob/master/LICENSE) fore details.
+These sources licensed under the Apache License, Version 2.0. Prease click [here](https://github.com/whojinn/markdown-with-sapphire/blob/master/LICENSE) fore details.
