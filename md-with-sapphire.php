@@ -19,6 +19,9 @@
     // オートローディング
     require "vendor/autoload.php";
 
+    /**
+     * CLIやCGIのスクリプトの元になるクラス。
+     */
     class MarkdownWithSapphire extends \Noi\ParsedownNewline /* or ParsedownExtra or etc. */ {
       // 1. RubyTextTrait と AozoraRubyTextTrait の両方をuse
       use \Noi\Parsedown\AozoraRubyTextTrait;
