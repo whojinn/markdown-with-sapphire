@@ -21,6 +21,8 @@
 
     /**
      * CLIやCGIのスクリプトの元になるクラス。
+     * note: vscodeで使用の際は以下の設定をしておくことを勧める。
+     * "files.trimTrailingWhitespace": false
      */
     class MarkdownWithSapphire extends \Noi\ParsedownNewline /* or ParsedownExtra or etc. */ {
       // 1. RubyTextTrait と AozoraRubyTextTrait の両方をuse
