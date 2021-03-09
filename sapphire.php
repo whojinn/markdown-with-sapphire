@@ -1,6 +1,7 @@
 <?php
     /***
      * md-with-sapphireをコマンドラインで実行するためのphpファイル。
+     * 最低限、標準出入力には対応させたい(2021年3月現在)
      *
      * Copyright 2021 whojinn
      *

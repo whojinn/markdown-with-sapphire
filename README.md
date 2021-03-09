@@ -4,6 +4,13 @@
 
 Emanuil Rusev氏と山野井 彰宏氏に心から感謝と敬意を表します。
 
+# example.mdについて
+青空文庫の[「走れメロス」](https://www.aozora.gr.jp/cards/000035/files/1567_14913.html)を引用させていただきました。
+使用にあたり、ファイルに以下の改変を加えました。
+- GitHub flavored Markdown の文法に沿ったレイアウトの変更を以下の通り行いました。
+    - 段落と段落の間に改行を追加しました。
+    - ファイル末尾の記載事項と本文の間に水平線を加えました。
+    
 # Copyright
 
 markdown-with-sapphire: Copyright 2021 whojinn
