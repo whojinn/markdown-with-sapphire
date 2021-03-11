@@ -11,6 +11,8 @@
     "require": {
         "noi/parsedown-rubytext": "*",
         "noi/parsedown-newline": "*",
-        "erusev/parsedown-extra": "*"
+        "erusev/parsedown-extra": "*",
+        "php": ">=5.3.0",
+        "ext-mbstring": "*"
     }
 }
